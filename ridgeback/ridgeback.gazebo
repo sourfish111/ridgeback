@@ -88,7 +88,7 @@
   </gazebo>
 
   <!-- This is an wheel-level solution to possibly revisit at a future date. -->
-  <!--<gazebo>
+  <gazebo>
     <plugin name="mecanum_gazebo" filename="libmecanum_force_plugin.so">
       <wheelJointName>front_left_wheel</wheelJointName>
       <forceScaleFactor>1</forceScaleFactor>
@@ -105,5 +105,5 @@
       <wheelJointName>rear_right_wheel</wheelJointName>
       <forceScaleFactor>1</forceScaleFactor>
     </plugin>
-  </gazebo> -->
+  </gazebo>
 </robot>
