@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <robot>
   <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <!-- <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
       <robotNamespace>/</robotNamespace>
-    </plugin>
+    </plugin> -->
 
     <plugin name="ridgeback_ros_force_based_move" filename="libridgeback_ros_force_based_move.so">
       <robotNamespace>/</robotNamespace>
@@ -20,7 +20,7 @@
       <y_velocity_p_gain>10000.0</y_velocity_p_gain>
     </plugin>
 
-    <plugin name="imu_controller" filename="libhector_gazebo_ros_imu.so">
+    <!-- <plugin name="imu_controller" filename="libhector_gazebo_ros_imu.so">
       <robotNamespace>/</robotNamespace>
       <updateRate>50.0</updateRate>
       <bodyName>imu_link</bodyName>
@@ -32,7 +32,7 @@
       <rateGaussianNoise>0.00005 0.00005 0.00005</rateGaussianNoise>
       <headingDrift>0.005</headingDrift>
       <headingGaussianNoise>0.005</headingGaussianNoise>
-    </plugin>
+    </plugin> -->
 
     <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
       <jointName>front_rocker</jointName>
@@ -85,6 +85,10 @@
     <material>Gazebo/DarkGrey</material>
     <mu1>0.0</mu1>
     <mu2>0.0</mu2>
+  </gazebo>
+
+  <gazebo reference="imu_joint">
+      <disableFixedJointLumping>true</disableFixedJointLumping>
   </gazebo>
 
   <!-- This is an wheel-level solution to possibly revisit at a future date. -->

@@ -34,7 +34,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/wheel.stl"/>
+          <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/wheel.stl"/>
         </geometry>
         <material name="black" />
       </visual>
@@ -78,7 +78,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 ${PI/2}" />
         <geometry>
-          <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/rocker.stl"/>
+          <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/rocker.stl"/>
         </geometry>
         <material name="black" />
       </visual>
@@ -128,14 +128,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/body.stl"/>
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/body.stl"/>
       </geometry>
       <material name="black" />
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/body-collision.stl"/>
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/body-collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -184,7 +184,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/side-cover.stl"/>
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/side-cover.stl"/>
       </geometry>
       <material name="yellow" />
     </visual>
@@ -193,7 +193,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/side-cover.stl"/>
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/side-cover.stl"/>
       </geometry>
       <material name="yellow" />
     </visual>
@@ -209,7 +209,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/end-cover.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/end-cover.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -225,7 +225,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/end-cover.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/end-cover.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -246,7 +246,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/lights.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/lights.stl" />
       </geometry>
       <material name="white" />
     </visual>
@@ -255,7 +255,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/lights.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/lights.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -271,14 +271,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/top.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/top.stl" />
       </geometry>
       <material name="black" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/top.stl"/>
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/top.stl"/>
       </geometry>
     </collision>
   </link>
@@ -293,7 +293,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 ${PI/2} 0" />
       <geometry>
-        <mesh filename="package://mobile_manipulation_description/meshes/base/ridgeback/axle.stl" />
+        <mesh filename="package://mobile_manipulator_description/meshes/base/ridgeback/axle.stl" />
       </geometry>
       <material name="black" />
     </visual>
